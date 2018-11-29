@@ -11908,7 +11908,6 @@ var Backend = {}; // common variable used in all the files of the backend
                         return true;
                     } else {
                         alert('Invalid file type');
-                        document.querySelector('.custom-file-input span').innerHTML = 'Choose a file';
                         this.value = '';
                         return false;
                     }
