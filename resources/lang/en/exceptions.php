@@ -100,6 +100,12 @@ return [
             'not_found'      => 'That Module does not exist.',
             'update_error'   => 'There was a problem updating this Module. Please try again.',
         ],
+        'tasks' => [
+            'already_exists' => 'That Task already exists. Please choose a different name.',
+            'create_error' =>  'There was a problem creating this Task. Please try again.',
+            'update_error' => 'There was a problem updating this Task. Please try again.',
+            'delete_error' => 'There was a problem deleting this Task. Please try again.'
+        ]
     ],
 
     'frontend' => [

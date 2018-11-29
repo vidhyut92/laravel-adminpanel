@@ -76,5 +76,10 @@ return [
             'deleted' => 'The Menu was successfully deleted.',
             'updated' => 'The Menu was successfully updated.',
         ],
+        'tasks' => [
+            'created' => 'The task created successfully.',
+            'updated' => 'The task updated successfully.',
+            'deleted' => 'The task deleted successfully.'
+        ]
     ],
 ];

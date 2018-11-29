@@ -127,6 +127,14 @@ return [
             'management' => 'Module Management',
             'main'       => 'Module Pages',
         ],
+
+        'tasks' => [
+            'all'        => 'All Tasks',
+            'create'     => 'Create Task',
+            'edit'       => 'Edit Page',
+            'management' => 'Task Management',
+            'main'       => 'Tasks',
+        ],
     ],
 
     'language-picker' => [

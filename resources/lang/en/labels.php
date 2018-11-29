@@ -274,6 +274,22 @@ return [
                 'event'                 => 'Event Name',
             ],
         ],
+
+        'tasks' => [
+            'create'     => 'Create Task',
+            'edit'       => 'Edit Task',
+            'management' => 'Task Management',
+            'title'      => 'Tasks',
+            'table' => [
+                'title'     => 'Title',
+                'status'    => 'Status',
+                'createdat' => 'Created At',
+                'updatedat' => 'Updated At',
+                'createdby' => 'Created By',
+                'all'       => 'All',
+                'is_featured' => 'Featured'
+            ],
+        ],
     ],
 
     'frontend' => [

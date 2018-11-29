@@ -21,4 +21,7 @@ return [
     'faqs' => [
         'table' => 'faqs',
     ],
+    'tasks' => [
+        'table' => 'tasks',
+    ],
 ];

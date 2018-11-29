@@ -222,6 +222,13 @@ return [
                     'answer'   => 'Answer',
                     'status'   => 'Status',
             ],
+            'tasks' => [
+                'title' => 'Title',
+                'status'    => 'Status',
+                'status_placeholder' => 'Select Status',
+                'task_file' => 'Task File',
+                'is_featured' => 'Featured Task'
+            ],
         ],
 
         'frontend' => [

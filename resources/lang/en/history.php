@@ -58,5 +58,10 @@ return [
             'reactivated'         => 'reactivated user',
             'restored'            => 'restored user',
         ],
+        'tasks' => [
+            'created' => 'created Task',
+            'deleted' => 'deleted Task',
+            'updated' => 'updated Task',
+        ],
     ],
 ];
