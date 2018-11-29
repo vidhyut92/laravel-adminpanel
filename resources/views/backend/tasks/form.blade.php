@@ -51,6 +51,7 @@
 								<span>Choose a file</span>
 							</label>
                         </div>
+                        <img id="file_preview" style="display:none" />
                         <div class="img-remove-logo">
 							@if(isset($task) && $task->task_file)
 							<img width="200" src="{{ Storage::disk('public')->url('app/public/img/tasks/' . $task->task_file) }}">
@@ -77,7 +78,7 @@
                     {{ Form::label('status', trans('validation.attributes.backend.tasks.status'), ['class' => 'col-lg-2 control-label required']) }}
 
                     <div class="col-lg-10">
-                        {{ Form::select('status', [1 => 'Active', 2 => 'Inactive'], null ,['class' => 'form-control box-size', 'placeholder' => trans('validation.attributes.backend.tasks.status_placeholder'), 'required' => 'required']) }}
+                        {{ Form::select('status', [1 => 'Active', 2 => 'Inactive'], null ,['class' => 'form-control box-size select2', 'placeholder' => trans('validation.attributes.backend.tasks.status_placeholder'), 'required' => 'required']) }}
                     </div>
                 </div>
 
@@ -97,6 +98,7 @@
 
 @section('after-scripts')
 <script>
+    Backend.Tasks.init();
     $('.remove-logo').click(function() {
         //add code to remove the logo
     });
